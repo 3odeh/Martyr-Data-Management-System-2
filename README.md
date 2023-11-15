@@ -6,24 +6,35 @@ In this project, the goal is to implement a data structure for managing martyr r
 
 ## Features
 
-- Load martyrs csv file
-- Create a sorted single linked list to hold martyr object information
-- Create a sorted doubly linked list that contains the location and a single list of martyr objects
-- Insert new location records
-- Update or delete location records
-- Search for location records and load associated martyr records
-- Update or delete martyr records
-- Search for martyr records by name
-- Generate summary reports for selected locations, including the number of martyrs by age and gender, average age of martyrs, and date with the maximum number of martyrs
-- Navigate through locations using next and previous buttons
-- Save updated linked lists back to a file in the same format as the input file
+- Load martyrs' records from a CSV file: The program allows the user to load a CSV file containing martyr records. This data is then used to populate the data structures.
+
+- Insert, update, and delete location records: The program provides options to insert new location records, update existing ones, and delete location records if needed.
+
+- Search for location records and load associated martyr records: The user can search for a specific location record and retrieve the associated martyr records for that location.
+
+- Insert, update, and delete martyr records: The program allows the user to insert new martyr records, update existing ones, and delete martyr records as required.
+
+- Search for martyrs by part of name: The user can search for martyrs by entering a part of their name. The program will retrieve all matching martyr records.
+
+- Generate summary reports for selected locations: The program can generate summary reports for selected locations. These reports include the number of martyrs in the selected location, the height of the AVL trees, and the date with the maximum number of martyrs.
+
+- Traverse AVL trees and print martyr information: The program can traverse the AVL trees and print the full information of the martyrs stored in them. This allows for easy access to the martyr records.
+
+- Save updated data structures back to a file: The program provides a "Save Screen" where the user can save the updated data structures back to a file in the same format as the input CSV file.
 
 ## Screenshots
+![image](https://github.com/3odeh/Martyr-Data-Management-System-2/assets/111912140/9edd63bc-6f28-4eed-ba3d-50fdb47bead6)
+![home](https://github.com/3odeh/Martyr-Data-Management-System-2/assets/111912140/d70e62b8-d5f4-46a1-944c-4580cbda00c2)
+![info](https://github.com/3odeh/Martyr-Data-Management-System-2/assets/111912140/77b6fd32-d6af-4a70-b2ed-ea87d6747565)
+![statistic](https://github.com/3odeh/Martyr-Data-Management-System-2/assets/111912140/c8a92087-ceea-47ad-ac36-a447e5048acf)
 
 
 ## Technologies Used
-- Java
-- JavaFX
+-  JavaFX
+- Sorted doubly circular linked lists
+- AVL trees
+- Queues
+- Stacks
 
 ## Installation
 
@@ -36,7 +47,7 @@ To install and run the Martyr Program on your local machine, follow these steps:
 #### clone the Repository:
 
 ```shell
-git clone https://github.com/3odeh/Martyr-Data-Management-System.git
+git clone https://github.com/3odeh/Martyr-Data-Management-System-2.git
 ```
 
 ## Contributing
